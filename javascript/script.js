@@ -15,7 +15,7 @@
 
 
 const apiKey = 'gF78d3xpyTjWRcRmQlGJTg==ElsLxWJ8t8OFYxFd';
-const query = '3lb carrots and a chicken sandwich';
+const query = 'carrots';
 
 
 fetch(`https://api.calorieninjas.com/v1/nutrition?query=${query}`, {

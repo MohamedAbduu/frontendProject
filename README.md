@@ -1,14 +1,14 @@
 #MY PAGES
 
-**Home page:** The home page should be designed to provide users with a clear understanding of the app's purpose and how it can help them. It should have an inviting design that entices users to explore the app further. This page should also include a prominent call-to-action button that encourages users to sign up or log in to their account.
+**Home** The home page should be designed to provide users with a clear understanding of the app's purpose and how it can help them. It should have an inviting design that entices users to explore the app further. This page should also include a prominent call-to-action button that encourages users to sign up or log in to their account.
 
 
 
-**Sign up/Login:** The sign-up and login pages should be simple and easy to use. Users should be able to create a new account or log in to an existing account with minimal effort. It can offer several options for users to sign up, such as using their email address, social media account, or mobile number.
+**Signup/Login:** The sign-up and login pages should be simple and easy to use. Users should be able to create a new account or log in to an existing account with minimal effort. It can offer several options for users to sign up, such as using their email address, social media account, or mobile number.
 
 
 
-****Dashboard:** The dashboard is the main page that users will see when they log in to the app. It should provide an overview of the user's goals, progress, and achievements. The dashboard can include features like a progress bar, graphs, and charts to display data in an easy-to-understand format.
+**Dashboard:** The dashboard is the main page that users will see when they log in to the app. It should provide an overview of the user's goals, progress, and achievements. The dashboard can include features like a progress bar, graphs, and charts to display data in an easy-to-understand format.
 
 
 
