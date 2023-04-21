@@ -1,3 +1,4 @@
+
 // this is for the responsive icon for all navbar pages 
     let menu = document.querySelector('#Menu-btn');
     let navbar = document.querySelector('.nav-bar')
@@ -21,22 +22,40 @@
 // });
 
 
+
+
 const apiKey = 'gF78d3xpyTjWRcRmQlGJTg==ElsLxWJ8t8OFYxFd';
-const query = 'carrots';
+let query = 'carrots';
+
+let searchbar = document.querySelector('#searchbar');
+let searchbutton = document.querySelector('#searchbutton')
+let outputElement = document.querySelector('#output');
 
 
-fetch(`https://api.calorieninjas.com/v1/nutrition?query=${query}`, {
-  headers: {
-    'X-Api-Key': apiKey
-  }
-})
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Request failed with status code ${response.status}`);
+searchbutton.addEventListener('click', ()=>{
+  console.log(searchbar.value);
+  query = searchbar.value;
+  console.log(query);
+
+  
+  fetch(`https://api.calorieninjas.com/v1/nutrition?query=${query}`, {
+    headers: {
+      'X-Api-Key': apiKey
     }
-    return response.json();
   })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => console.error(error));
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Request failed with status code ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log(data);
+      outputElement.innerHTML = `Calories: ${data.items[0].calories}`;
+      
+    })
+    .catch(error => console.error(error));
+     
+  
+
+})
